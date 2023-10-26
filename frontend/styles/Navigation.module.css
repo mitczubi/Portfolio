@@ -1,0 +1,14 @@
+.navigationCustom {
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1000;
+    height: 50px;
+}
+
+.navigationCustomText {
+    color: #f205ae;
+    text-shadow: 0 0 10px #f205ae;
+}
+
+.navigationCustomText:hover {
+    color: rgb(255,186,253);
+}
