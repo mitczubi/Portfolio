@@ -8,11 +8,11 @@ export default function Home(props) {
     <>
       <main className={styles.mainContent}>
         <Navigation />
-        <Container fluid className="w-100 h-100 p-0" >
-          <Row className="h-100">
-            <Col className="my-auto justify-content-center d-flex">
-              <div className={`text-center ${styles.heroDiv}`}>
-                <span className={styles.heroText}>Mitchell Zubich</span>
+        <Container fluid="md" className="w-100 h-100 p-0" >
+          <Row className="h-100 mx-auto">
+            <Col className="justify-content-center my-auto d-flex text-center">
+              <div className={`text-center p-0 ${styles.heroDiv}`}>
+                <span className={`p-3 ${styles.heroText}`}>Mitchell Zubich</span>
               </div>
             </Col>
           </Row>
