@@ -9,8 +9,8 @@ export default function Home(props) {
       <main className={styles.mainContent}>
         <Navigation />
         <Container fluid className="w-100 h-100 p-0" >
-          <Row className="w-100 h-100">
-            <Col className="my-auto p-0 justify-content-center d-flex">
+          <Row className="h-100">
+            <Col className="my-auto justify-content-center d-flex">
               <div className={`text-center ${styles.heroDiv}`}>
                 <span className={styles.heroText}>Mitchell Zubich</span>
               </div>

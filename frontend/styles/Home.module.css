@@ -7,12 +7,12 @@
 
 .heroDiv {
     font-size: 5rem;
-    letter-spacing: 16px;
+    /* letter-spacing: 16px; */
     color: #1f0e28;
     border: 3px solid rgba(22, 182, 212, 0.3);
     padding: 20px;
-    position: relative;
-    width: 500px;
+    /* position: relative; */
+    /* width: 500px; */
     animation: blink 8s forwards;
 }
 
