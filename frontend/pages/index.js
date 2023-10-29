@@ -2,6 +2,7 @@ import styles from "../styles/Home.module.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 import Navigation from "../components/navbar.js";
+import Footer from "../components/footer.js";
 
 export default function Home(props) {
   return (
@@ -18,6 +19,7 @@ export default function Home(props) {
           </Row>
         </Container>
       </main>
+        <Footer />
     </>
   )
 }

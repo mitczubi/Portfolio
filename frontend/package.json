@@ -7,7 +7,7 @@
     "dev": "next dev",
     "start": "next start",
     "build": "next build && next export",
-    "lint": "next lint"  
+    "lint": "next lint"
   },
   "dependencies": {
     "@sanity/client": "^6.7.0",
@@ -21,6 +21,7 @@
     "react": "^18",
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18",
+    "react-social-icons": "^6.4.0",
     "yarn": "^1.22.19"
   },
   "devDependencies": {
