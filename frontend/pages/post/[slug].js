@@ -6,7 +6,6 @@ const Post = () => {
   
   return (
     <>
-    <Navigation />
     <article>
       <h1>{router.query.slug}</h1>
     </article>

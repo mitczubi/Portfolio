@@ -5,12 +5,12 @@ export default function Navigation () {
     return (
         <>
             <Navbar sticky="top" expand="lg" className={styles.navigationCustom}>
-                <Container>
+                <Container className={`${styles.customContainer} px-4`}>
                     <Navbar.Brand className={styles.navigationCustomText} href="/">
                         MZ
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarNav" />
-                    <Navbar.Collapse className="justify-content-end mr-3">
+                    <Navbar.Collapse className={`justify-content-end mr-3 ${styles.navigationCollapseCustom}`}>
                         <Nav>
                         <Nav.Item>
                             <Nav.Link className={styles.navigationCustomText} href="/">Home</Nav.Link>

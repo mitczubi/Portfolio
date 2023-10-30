@@ -1,14 +1,10 @@
 import styles from "../styles/Home.module.css";
 import { Container, Row, Col } from "react-bootstrap";
 
-import Navigation from "../components/navbar.js";
-import Footer from "../components/footer.js";
-
 export default function Home(props) {
   return (
     <>
-      <main className={styles.mainContent}>
-        <Navigation />
+      <div className={styles.mainContent}>
         <Container fluid="md" className="h-100 p-0" >
           <Row className="h-100 mx-auto">
             <Col className="justify-content-center my-auto d-flex text-center">
@@ -18,8 +14,7 @@ export default function Home(props) {
             </Col>
           </Row>
         </Container>
-      </main>
-        <Footer />
+      </div>
     </>
   )
 }
