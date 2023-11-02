@@ -14,25 +14,25 @@ export default function Post ({ post }) {
   } = post
   return (
     <>
-    <Container md="auto">
+    <Container md="auto" className={`my-5`}>
       <Row className={`${styles.blogHeader}`}>
-        <Col>
+        <Col md={{ offset: 4}}>
             <h2>{title}</h2>
             <p>By {name}</p>
         </Col>
       </Row>
       <Row className={`my-3`}>
-        <Col md={8} className={`${styles.blogMainContent}`}>
-          <PortableText
-            value={body}
-          />
-        </Col>
-        <Col md={4}>
+        <Col md={4} className={`${styles.blogSideContent}`}>
           <ol className="list-unstyled m-auto p-2 bg-light">
             {categories && (
               categories.map(category => <li key={category}>{category}</li>)
             )}
           </ol>
+        </Col>
+        <Col md={8} className={`${styles.blogMainContent}`}>
+          <PortableText
+            value={body}
+          />
         </Col>
       </Row>
     </Container>
