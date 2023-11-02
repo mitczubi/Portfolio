@@ -1,21 +1,13 @@
 {
   "hosting": {
-   "public": "out",
-   "ignore": [
-     "firebase.json",
-     "**/.*",
-     "**/node_modules/**"
-   ],
-   "rewrites": [
-    {
-      "source": "/post",
-      "destination": "/post/index.html"
-    },
-    {
-      "source": "/post/**",
-      "destination": "/post/[slug]/index.html"
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "us-east1"
     }
-   ]
   }
- }
- 
+}

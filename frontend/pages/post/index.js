@@ -1,12 +1,11 @@
 import groq from "groq";
 import client from "../../client";
 
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import BlogCard from "../../components/blog-card";
 import styles from "../../styles/blog/BlogIndex.module.css";
 
 export default function Post ({ posts }) {
-
     return (
         <>
             <Container fluid="md" className={`p-3 ${styles.customContainer}`}>
@@ -29,6 +28,7 @@ export async function getStaticProps() {
     return {
         props: {
             posts
-        }
+        },
+        revalidate: 10,
     }
 }
