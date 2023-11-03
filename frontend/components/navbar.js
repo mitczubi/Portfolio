@@ -4,7 +4,7 @@ import styles from "../styles/Navigation.module.css";
 export default function Navigation () {
     return (
         <>
-            <Navbar sticky="top" expand="lg" className={styles.navigationCustom}>
+            <Navbar sticky="top" expand="lg" bg="dark" data-bs-theme="dark" className={styles.navigationCustom}>
                 <Container className={`${styles.customContainer} px-4`}>
                     <Navbar.Brand className={styles.navigationCustomText} href="/">
                         MZ

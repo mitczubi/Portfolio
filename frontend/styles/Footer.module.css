@@ -1,9 +1,9 @@
 .footerCustom {
-    background-color: #0b030f;
-
+    background-color: rgb(33,37,41);
+    color: #fff;
 }
 
-.footerCustomText {
+/* .footerCustomText {
     color: #f205ae;
     text-shadow: 0 0 10px #f205ae;
-}
+} */
