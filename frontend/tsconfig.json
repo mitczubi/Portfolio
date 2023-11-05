@@ -17,6 +17,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/post/[slug].js", "pages/_document.js", "pages/_app.js", "client.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/post/[slug].js", "pages/_document.js", "pages/_app.js", "utils/sanity-client.js"],
   "exclude": ["node_modules"]
 }

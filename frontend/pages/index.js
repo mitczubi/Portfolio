@@ -1,5 +1,8 @@
 import styles from "../styles/Home.module.css";
 import { Container, Row, Col } from "react-bootstrap";
+import { getBlogPosts } from "../utils/sanity-queries";
+import BlogList from "../components/blog-list";
+
 
 export default function Home(props) {
   return (
@@ -17,4 +20,14 @@ export default function Home(props) {
       </div>
     </>
   )
+}
+
+export async function getStaticProps() {
+  const posts = await getBlogPosts();
+  return {
+    props: {
+        posts
+    },
+    revalidate: 10,
+}
 }

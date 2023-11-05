@@ -1,4 +1,4 @@
-import client from "../../client";
+import client from "../../utils/sanity-client";
 import groq from "groq";
 import { Container, Row, Col } from "react-bootstrap";
 import { PortableText } from "@portabletext/react";
